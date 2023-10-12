@@ -1,0 +1,268 @@
+/* .container {
+    max-width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+      max-width: 768px;
+      padding: 0 32px;
+    }
+}
+  
+@media screen and (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+      padding: 0 100px;
+    }
+}
+
+ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.footer {}
+
+.conteiner-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    background: #121212;
+    background-image:
+}
+
+.footer-div {
+    flex-basis: 100%;
+}
+
+.logo-footer {
+    width: 123px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.address-footer {}
+
+.address-group {}
+
+.contacts {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+    text-transform: uppercase;
+}
+
+.social-media {}
+
+.media-list {}
+
+.media {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.menu-footer {}
+
+.link-footer {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.input-footer {}
+
+.form-footer {}
+
+.email-input {
+    color: #121212;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    width: 216px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FFF;
+}
+
+.button-footer {
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #1D1D1D;
+}
+
+.div-footer {}
+
+.p-footer {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+} */
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--c-bg-color-body);
+    color: var(--c-white);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+}
+
+.footer {
+    max-width: 375px;
+    background-color: #121212;
+    background-image: url(../img/Graphic.png);
+    /* Не знаю куди давати */
+}
+
+/* Спроба номе 2 */
+
+ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.address-group {
+    margin-top: 16px;
+}
+
+.conteiner {
+    max-width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.footer-div {
+    flex-basis: 100%;
+    /* padding: 20px 10px 0px; */
+}
+
+.contacts-adrec {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28px;
+}
+
+.social-media {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    /* padding: 20px 10px 0px; */
+}
+
+.media-list,
+.menu-footer {
+    margin-top: 40px;
+}
+
+li {
+    margin-top: auto;
+}
+
+.li-footer {
+    margin-top: 14px;
+}
+
+.contacts,
+.media,
+.link-footer {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.form-footer {
+    display: inline-flex;
+    gap: 8px;
+    margin-top: 75px;
+}
+
+.email-input {
+    color: #121212;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25;
+    border-radius: 12px;
+    border: none;
+    background-color: #FFF;
+    width: 267px;
+    height: 60px;
+    padding: 0px 0 0px 18px;
+}
+
+.button-footer {
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.4; 
+    border-radius: 12px;
+    border: none;
+    background-color: #1D1D1D;
+    width: 60px;
+    height: 60px;
+}
+
+.div-footer {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 72px;
+}
+
+.p-footer {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    margin-top: 40px; 
+}
